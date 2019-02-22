@@ -8,7 +8,7 @@ while ( !feof($fh) ) {
     $string = fgets($fh);
     echo $string;
 }
-*/ // fread() , fgets() это тоже самое (файл гет стринг // возвращает false если нету что четать)
+*/ // fread() , fgets() это тоже самое (файл гет стринг // возвращает false если нету что читать)
 
 
 // lines = file(__DIR__ . '/text.txt'); - возвращает масив
